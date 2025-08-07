@@ -1,0 +1,81 @@
+.toast-btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-red {
+    background-color: crimson;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid crimson;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.btn-red:hover {
+    background-color: transparent;
+    color: crimson;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid crimson;
+}
+
+.btn-red-disable {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #966670;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid #966670;
+    font-size: 16px;
+    transition: 0.3s all;
+    opacity: 0.65;
+}
+
+.btn-blue {
+    background-color: gold;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s all;
+    border: 2px solid gold;
+}
+
+.btn-blue:hover {
+    background-color: transparent;
+    color: gold;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s all;
+    border: 2px solid gold;
+}
+
+.btn-blue-disable {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #b89d40;
+    /* a duller shade of gold */
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid #b89d40;
+    font-size: 16px;
+    transition: 0.3s all;
+    opacity: 0.65;
+}

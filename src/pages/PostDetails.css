@@ -1,0 +1,233 @@
+.no-post {
+    max-width: 800px;
+    height: 50vh;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 19.2px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.post-card {
+    position: relative;
+    max-width: 800px;
+    margin: 10px auto;
+    width: 100%;
+    /* makes card fill available column */
+    /* cursor: pointer; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    /* border: 4px solid; */
+    /* border-image: linear-gradient(to bottom right, red, yellow) 1; */
+}
+
+/* .post-card:hover {
+    transform: scale(1.05);
+    Optional zoom effect
+} */
+
+.post-details-admin-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+
+    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(0, 0, 0, 0.4); */
+    /* background: rgba(128, 0, 128, 0.6); */
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.postdetails-image-wrapper {
+    position: relative;
+    width: 800px;
+    height: 450px;
+}
+
+.postdetails-posts-card-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.postdetails-atom-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.post-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px 10px;
+    background-color: white;
+    color: #111;
+    line-height: 1.4;
+    border-bottom: 1px solid #eee;
+}
+
+.post-card-body {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.7;
+    padding: 0 25px 20px;
+    background-color: white;
+    white-space: pre-line;
+    /* respects line breaks if any */
+}
+
+.post-list-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.post-actions {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.delete-btn {
+    background-color: #f3345b;
+    color: #fff;
+    padding: 8px 8px 4px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: crimson;
+    color: #fff;
+    padding: 8px 8px 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 8px 8px 4px 10px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: rgb(67, 126, 235);
+    color: #fff;
+    padding: 8px 8px 4px 10px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.toast-btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-red {
+    background-color: crimson;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid crimson;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.btn-red:hover {
+    background-color: transparent;
+    color: crimson;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid crimson;
+}
+
+.btn-red-disable {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #966670;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid #966670;
+    font-size: 16px;
+    transition: 0.3s all;
+    opacity: 0.65;
+}
+
+.btn-blue {
+    background-color: gold;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s all;
+    border: 2px solid gold;
+}
+
+.btn-blue:hover {
+    background-color: transparent;
+    color: gold;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s all;
+    border: 2px solid gold;
+}
+
+.btn-blue-disable {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #b89d40;
+    /* a duller shade of gold */
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid #b89d40;
+    font-size: 16px;
+    transition: 0.3s all;
+    opacity: 0.65;
+}
