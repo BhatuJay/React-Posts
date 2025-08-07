@@ -143,3 +143,7 @@ export function Home() {
         </>
     );
 }
+
+// git add .
+// git commit -m ""
+// git push
