@@ -6,6 +6,7 @@ import { Home } from './pages/Home'
 import { Login } from './pages/Login';
 import { PostDetails } from './pages/PostDetails';
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const routes = createBrowserRouter([
   {
@@ -33,6 +34,7 @@ function App() {
     <>
       <RouterProvider router={routes} />
       <Analytics />
+      <SpeedInsights />
     </>
   )
 }
