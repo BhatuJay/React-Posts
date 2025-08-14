@@ -5,6 +5,9 @@ import App from './App.jsx'
 import { Provider } from 'react-redux'
 import { store } from './app/store.js'
 import { ToastContainer } from 'react-toastify'
+import { inject } from "@vercel/analytics";
+
+inject(); // Initialize Vercel Analytics
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
