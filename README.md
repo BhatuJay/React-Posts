@@ -18,9 +18,10 @@
 ## 🌟 Project Preview
 
 <p align="center">
-  <img src="public/React_posts_home.png" alt="React Posts home Screenshot" width="800" />
-  <img src="public/React_posts_details.png" alt="React Posts details Screenshot" width="800" />
-  <img src="public/React_posts_add_edit.png" alt="React Posts add_edit Screenshot" width="800" />
+  <img src="public/React_posts_gif.gif" alt="React Posts Home Screenshot gif" width="800" />
+<!--   <img src="public/React_posts_home.png" alt="React Posts Home Screenshot" width="800" /> -->
+<!--   <img src="public/React_posts_details.png" alt="React Posts Details Screenshot" width="800" /> -->
+<!--   <img src="public/React_posts_add_edit.png" alt="React Posts Add Edit Screenshot" width="800" /> -->
 </p>
 
 ---
