@@ -15,6 +15,20 @@
 
 ---
 
+## 🚀 Live Demo  
+
+<p align="center">
+  <a href="https://react-posts-coral.vercel.app" target="_blank">
+    <img src="public/react-posts-coral.png" alt="Live Demo" width="200" />
+  </a>
+</p>
+
+<p align="center">
+  👉 <a href="https://react-posts-coral.vercel.app" target="_blank">Click here or LOGO to try React Posts</a>
+</p>
+
+---
+
 ## 🌟 Project Preview
 
 <p align="center">
