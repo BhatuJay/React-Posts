@@ -18,7 +18,9 @@
 ## 🌟 Project Preview
 
 <p align="center">
-  <img src="public/preview.png" alt="React Posts Screenshot" width="800" />
+  <img src="public/React_posts_home.png" alt="React Posts home Screenshot" width="800" />
+  <img src="public/React_posts_details.png" alt="React Posts details Screenshot" width="800" />
+  <img src="public/React_posts_add_edit.png" alt="React Posts add_edit Screenshot" width="800" />
 </p>
 
 ---
